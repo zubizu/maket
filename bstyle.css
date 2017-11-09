@@ -2,7 +2,7 @@
 body {
 	background: radial-gradient(circle closest-corner at 700px 1030px,  rgb(22, 93, 121), rgb(8, 29, 45), rgb(8, 25, 40));
 	color:#0e4d66;
-	font-family: ;
+	font: 14px Tahoma, sans-serif;
 	width:2000px;
 	height: 1200px;
 }
@@ -15,3 +15,23 @@ section {
 	border-radius: 5px;
 }
 
+
+
+.photo img {
+	border:2px solid black;
+	padding: 5px;
+	margin:5%;
+}
+
+
+
+dt {
+    float: left; 
+    width: 150px; 
+    overflow: hidden;  
+    text-align: left; 
+    text-overflow: ellipsis;
+   }
+   .date {
+    margin: 8% 16%;
+   }
