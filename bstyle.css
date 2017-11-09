@@ -8,14 +8,29 @@ body {
 }
 
 /*хэдер*/
+
+.photo img {
+	border:2px solid black;
+	padding: 5px;
+	margin:5%;
+}
+
+.social {
+margin-left:15%;  
+}
+
 .social li {
 	display: inline-block;
 	font-size: 16px;
 	color:#f1f1f1;
+	padding-left: 4%;
 }
-a {
+
+.social a {
 	font-size: 16px;
 	color:#f1f1f1;
+	text-transform: uppercase;
+
 
 }
 /*Профайл юзера*/
@@ -30,11 +45,7 @@ section {
 
 
 
-.photo img {
-	border:2px solid black;
-	padding: 5px;
-	margin:5%;
-}
+
 
 
 
