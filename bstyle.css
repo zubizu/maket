@@ -11,11 +11,11 @@ body {
 /*хэдер*/
 
 nav {
-	margin-top: 5px 
+	margin-top: 56px 
 }
 
 .social {
-margin-left:600px;  
+margin-left:581px;  
 }
 
 .social li {
@@ -38,7 +38,7 @@ li:first-child {
 
 .logo 
 {
-	margin-left:883px;
+	margin-left:865px;
 	margin-top:50px;	
 }
 
@@ -54,20 +54,22 @@ li:first-child {
 	background:#f3f3f3;
 	max-width:37%;
 	height: 69%;
-	margin-left:630px;
-	margin-top: 210px;
-	border-radius: 5px;
+	margin-left:623px;
+	margin-top: 24px;
+    border-radius: 10px;
 	box-shadow: 10px 10px 10px #08202a;
 }
 
 h2 {
 	font-size:24px;
-	margin-left: 70px;
-	padding-top: 50px;
+	margin-left: 68px;
+    padding-top: 44px;
+	
 }
 
 .personal {
-margin-top: 20px;
+margin-top: 32px;
+/*overflow:hidden;*/
 }
 
 .photo img {
@@ -76,31 +78,36 @@ margin-top: 20px;
 	border-top:2px solid #1c85af;
 	border-right: 2px solid #176e92;
 	padding: 5px;
-	margin-left:70px;
+	margin-left:68px;
 	float:left;
 	width:170px;
+	border-radius: 5px;
 			
 }
 
 .date {
 	font-size: 14px;
-    line-height: 2;
+    line-height: 2.46;
     list-style: none;
     display: inline-block;
     float: left; 
     width: 150px; 
     text-align: left; 
-    margin-top: -10px;    
+     
    }
 
    .sheet {
    	font-weight: bold;
-   	width:164px;
+    width: 164px;
+    margin-top: -14px;
+    margin-left: -12px;
     
    }
 
    .user {
-   	margin-left: 10px;
+   	margin-left: -23px;
+    margin-top: -15px;
+    line-height: 2.46;
 
    }
 
@@ -110,6 +117,14 @@ margin-top: 20px;
 	width:620px;
 }
 
+   .sheet2 {
+
+   	font-weight: bold;
+    width: 98px;
+    margin-top: -2px;
+    margin-left: -1px;
+    line-height: 2.46;
+   } 
 	.contact {
 		clear:both;
 	}
@@ -118,7 +133,8 @@ margin-top: 20px;
 
   
 	.contact h3 {
-		padding-top: 30px;
+	padding-top: 18px;
+    font-size: 18px;
 	}
 
 	.contact ul {
@@ -126,7 +142,6 @@ margin-top: 20px;
 	list-style: none;
 	display: inline-block;
 	font-size: 14px;
-    line-height: 2;
     padding-left:0;
 	}
 
@@ -138,9 +153,8 @@ margin-top: 20px;
 	}
 	
 	.tel {
-		padding-left: 220px;
-		padding-top:100px;
-		width:50%;
+		    padding-left: 210px;
+    		padding-top: 49px;
 	}
 	
 
@@ -163,8 +177,9 @@ margin-top: 20px;
 	}
 
 	.logo-footer {
-		margin-left:790px;
+		margin-left:794px;
 		width:50%;
+		margin-top: -52px;
 		
 	}
 
@@ -186,4 +201,5 @@ margin-top: 20px;
 
 	.info {
 		margin: -15px;
+
 	}	
