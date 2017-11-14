@@ -1,111 +1,94 @@
-
-@media screen and (min-width:995px )and (max-width: 2200px) {
 body {
-	background: radial-gradient(circle closest-corner at 700px 1030px,  rgb(22, 93, 121), rgb(8, 29, 45), rgb(8, 25, 40));
+	/*background: radial-gradient(circle closest-corner at 700px 1030px,  rgb(22, 93, 121), 
+				rgb(8, 29, 45), rgb(8, 25, 40));*/
+	background: url(test.png) center;		
 	color:#0e4d66;
 	font: 14px Tahoma, sans-serif;
-	width:2000px;
-	height: 1200px;
-
+	width:100%;
 	}
 
 
-
-
-
-
-/*хэдер*/
-
+/*
+  ========================================
+  Хэдэр
+  ========================================
+*/
+/*----------------------------------
+  навигация
+  ----------------------------------
+ */
 nav {
 	margin-top: 56px; 
+	margin-left: auto;
+	margin-right: auto;
 }
+
+
+.logo {
+	margin-top:50px;
+ 	width:252px;
+	margin-left:auto;
+	margin-right:auto;
+}	
+
+
 
 .social {
-margin-left:581px;  
+	width: 814px;
+	margin:auto;
 }
-
+.social ul {
+	
+}
 
 .social li {
 	display: inline-block;
 	padding-left: 60px;
+
 }
 
-
-
-	.social a {
-	font-size: 6em;
-	font-family:Tahoma;
-	color:#f1f1f1;
+.social a {
+	list-style: none; /*? ли инлайн-блок */
 	text-transform: uppercase;
-	padding-left: 1em;
-		}
+	font-size: 1.2em;
+	color:#f1f1f1;
+	padding-left: 8px;
+}
 
-	.social img {
-		float:left;
-		
-	}	
+.social img {
+	vertical-align: bottom;
+}
 
-	.social ul {
-		vertical-align: top;
-	}
-
-
-li:first-child {
+.social li:first-child {
 	padding:0;
 }
 
-
-.social a {
-	font-size: 16px;
-	color:#f1f1f1;
-	text-transform: uppercase;
-	padding-left:10px;
-
-
-	}
-
-.logo 
-{
-	margin-left:865px;
-	margin-top:50px;	
-	}
-
-
-
-
-.logo img {
-	width:252px;
-	height: 53px;
-}
-
-/*Профайл юзера*/
-
-
+/*----------------------------------
+      анкета
+------------------------------------*/
 .card {
 	
 	background:#f3f3f3;
 	max-width:814px;
-	height: 69%;
-	margin-left:623px;
-	margin-top: 24px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: auto;
     border-radius: 10px;
 	box-shadow: 10px 10px 10px #08202a;
+	
 }
 
 
 h2 {
 	font-size:24px;
 	margin-left: 68px;
-    padding-top: 44px;
-	
-	}
+	padding-top: 44px;
+}
 
 .personal {
 margin-top: 32px;
 /*overflow:hidden;*/
 }
-
-
 
 .photo img {
 	border-bottom: 2px solid #092232;
@@ -117,287 +100,165 @@ margin-top: 32px;
 	float:left;
 	width:170px;
 	border-radius: 5px;
-	}
-			
+}
 
-	.date {
-	font-size: 14px;
-    line-height: 2.46;
+
+.date {
+	line-height: 2.46;
     list-style: none;
     display: inline-block;
     float: left; 
     width: 150px; 
     text-align: left; 
      
-   }
+}
 
 
-	
-   .sheet {
+.sheet {
    	font-weight: bold;
     width: 164px;
     margin-top: -14px;
     margin-left: -12px;
     
-   }
+} 
 
-   .user {
-   	margin-left: -23px;
+
+.user {
+   	margin-left: -10px;
     margin-top: -15px;
     line-height: 2.46;
 
-   }
-
-   .paragraph {
-
-	margin-left:70px;
-	width:620px;
 }
 
- 
-   	.sheet2 {
+.paragraph {
+
+	margin:auto;
+	width:90%;
+	padding-bottom: 35px;
+}
+
+
+.sheet2 {
 
    	font-weight: bold;
     width: 98px;
     margin-top: -2px;
     margin-left: -1px;
     line-height: 2.46;
-   } 
-	.contact {
-		clear:both;
-	}
+} 
 
-	
-	
+.contact {
 
-  
-	.contact h3 {
-	padding-top: 18px;
+	clear:both;
+}
+
+.contact h3 {
+	padding-top: 10px;
     font-size: 18px;
-	}
 
-	.contact ul {
+}
+
+.contact ul {
 			
 	list-style: none;
 	display: inline-block;
 	font-size: 14px;
     padding-left:0;
-	}
-
-	/*footer*/
-
-	.phone {
-		color: #e3a81f;
-		font:24px Arial, sans-serif;
-	}
-	
-	.tel {
-		    padding-left: 210px;
-    		padding-top: 49px;
-	}
-	
-
-	span {
-		font-size: 12px;
-		color: #c0cace;
-		font-family: Arial, sans-serif;
-	}
-
-	.block {
-		width:1190px;
-		margin-left:410px; 
-		border-top:1px solid #376f88;
-		margin-top:50px;
-
-	}
-
-	.adv {
-		width:741px;
-	}
-
-	.logo-footer {
-		margin-left:794px;
-		width:50%;
-		margin-top: -52px;
-		
-	}
-
-	.logo-footer p {
-
-		font: 12px Arial, sans-serif;
-		color:white;
-
-	}
-
-	p a {
-		color:#2c6584;
-	}
-
-	.logo2 {
-		float:left;
-		padding-right: 16px;
-	}
-
-	.info {
-		margin: -15px;
-
-	}	
-
-}
-
-/*==============================
-	медиазапросы
-  ============================== */
-
-  	@media screen and (min-width:320px )and (max-width: 992px) {
-
-
-body {
-		
-		background:rgb(8, 25, 40);
-		color:#0e4d66;
-		min-width: 320px;
-		font-family: 14px Tahoma, sans-serif;
-	}
-
-
-
-/*
-  ========================================
-  Хэдэр
-  ========================================
-*/
-
-header {
-	margin-top: 5%;
-
-}
-.logo img {
-	margin-left:15%; 
-	width: 100%;
-}
-
-nav {
-	margin-top: 15%; 
-}
-
-.social {
-margin-left:40%;  
-}
-li {
-	list-style: none;
-}
-.social li {
-		text-transform: uppercase;
-}
-
-.social a {
-	font-size: 5em;
-	color:white;
-}
-
-	.social img {
-		width:5em;
-		
 }
 
 
-/*
-  ========================================
-  Основной блок
-  ========================================
-*/
-.card {
-	
-	background:#f3f3f3;
-	
-	margin-left:5%;
-	margin-top: 5%;
-    border-radius: 10px;
-	font-size: 3em;
-	padding-left: 5%;
-	padding-bottom: 5%;
-	padding-right: 5%;
-}	
-
-
-h2 {
-	font-size: 2em;
-	margin:5%;
-}
-
-.photo img {
-	border-bottom: 2px solid #092232;
-	border-left: 2px solid #176a8d;
-	border-top:2px solid #1c85af;
-	border-right: 2px solid #176e92;
-	padding: 1%;
-	width:60%;
-	margin-left: 20%;
-	border-radius: 5px;
-
-	}
-
-
-.date, .contact {
-line-height: 2.46;
-
-	}
-
-
-.sheet {
-	font-weight: bold;
-}	
-
-
-
-
-.paragraph ul {
-	display: inline-block;
-}
-
-/*
-  ========================================
-  Футер
-  ========================================
-*/
+/*===================================
+     футер
+  ====================================*/
 
 footer {
-	margin-top: 6%;
-	border-top:3px solid #376f88;
+	margin-top:122px;
 
-}
-
-.tel {
-		font-family: Arial, sans-serif;
-		margin-left: 8%;
 }
 
 .phone {
-	font-size: 6em;
-	color:  #e3a81f;
+	color: #e3a81f;
+	font:24px Arial, sans-serif;
+}
+	
+.tel {
+    float:left;
+    margin-right:400px;
+   
+}
+	
+
+span {
+	font-size: 12px;
+	color: #c0cace;
+	font-family: Arial, sans-serif;
 }
 
-.my {
-	color:#c0cace;
-	font-size:2em ;
+
+
+.adv {
+	max-width:814px;
+	margin: auto;
 }
 
 .logo-footer {
-	margin-top:10%;
-	margin-left: 40%;
+	
+		
 }
 
-.logo-footer div {
-	display:inline-block;
+.logo-footer p {
+	font: 12px Arial, sans-serif;
+	color:white;
+	line-height: .5;
+}
+
+p a {
+	color:#2c6584;
+}
+
+.logo2 {
+	float:left;
+	padding-right: 16px;
 }
 
 .info {
-	margin-left: 2%;
+	margin: -15px;	
+}	
+
+img .logo2 {
+	width:10px;
+
 }
 
-.info p:nth-child(2) {
-	color:white;
+
+@media screen and (min-width:320px) and (max-width: 992px) {
+
+
+body {
+	width: 992px;
 }
 
+.card {
+	width:300px;
+
 }
+
+.social li {
+	display: block;
+	margin:auto;
+	width:200px;
+	
+}
+
+.photo img {
+	margin-bottom: 15px;
+}
+
+footer div  {
+	clear: both;
+	width:300px;
+	margin-left:auto;
+}
+
+}	
+
