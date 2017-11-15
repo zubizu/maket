@@ -1,32 +1,35 @@
 body {
-	/*background: radial-gradient(circle closest-corner at 700px 1030px,  rgb(22, 93, 121), 
-				rgb(8, 29, 45), rgb(8, 25, 40));*/
+/*background: radial-gradient(circle closest-corner at 700px 1030px,  rgb(22, 93, 121), 
+rgb(8, 29, 45), rgb(8, 25, 40));*/
 	background: url(test.png) center;		
 	color:#0e4d66;
 	font: 14px Tahoma, sans-serif;
 	width:100%;
-	}
+}
 
 
 /*
-  ========================================
-  Хэдэр
-  ========================================
+========================================
+Хэдэр
+========================================
 */
 /*----------------------------------
-  навигация
-  ----------------------------------
- */
+навигация
+----------------------------------
+*/
+header {
+	padding-top: 57px;
+	box-sizing: border-box;
+}	
+
 nav {
-	margin-top: 56px; 
-	margin-left: auto;
-	margin-right: auto;
+	padding-top:44px; 
+
 }
 
 
 .logo {
-	margin-top:50px;
- 	width:252px;
+	width: 250px;
 	margin-left:auto;
 	margin-right:auto;
 }	
@@ -34,12 +37,10 @@ nav {
 
 
 .social {
-	width: 814px;
-	margin:auto;
+	padding-left: 274px; /*не знаю как отцентрировать*/
+
 }
-.social ul {
-	
-}
+
 
 .social li {
 	display: inline-block;
@@ -64,30 +65,39 @@ nav {
 }
 
 /*----------------------------------
-      анкета
+анкета
 ------------------------------------*/
 .card {
-	
+
 	background:#f3f3f3;
-	max-width:814px;
+	max-width:740px;
 	margin-left: auto;
 	margin-right:auto;
-	margin-top: auto;
-    border-radius: 10px;
+	box-sizing: border-box;
+	border-radius: 10px;
 	box-shadow: 10px 10px 10px #08202a;
-	
+	padding: 25px 70px;
+	margin-top: 25px;
+	margin-bottom: 68px;
 }
 
 
 h2 {
 	font-size:24px;
-	margin-left: 68px;
-	padding-top: 44px;
+
+}
+
+.blank {
+
 }
 
 .personal {
-margin-top: 32px;
-/*overflow:hidden;*/
+	padding-top:9px;
+
+}
+
+.photo {
+	float: left;
 }
 
 .photo img {
@@ -95,84 +105,90 @@ margin-top: 32px;
 	border-left: 2px solid #176a8d;
 	border-top:2px solid #1c85af;
 	border-right: 2px solid #176e92;
-	padding: 5px;
-	margin-left:68px;
-	float:left;
+	padding:4px;
 	width:170px;
 	border-radius: 5px;
 }
 
+.cv {
+	float: right;
+}
 
 .date {
 	line-height: 2.46;
-    list-style: none;
-    display: inline-block;
-    float: left; 
-    width: 150px; 
-    text-align: left; 
-     
+	list-style: none;
+	float: left; 
+	width: 150px; 
+	text-align: left; 
 }
 
 
 .sheet {
-   	font-weight: bold;
-    width: 164px;
-    margin-top: -14px;
-    margin-left: -12px;
-    
+	font-weight: bold;
+	width: 164px;
+
 } 
 
 
 .user {
-   	margin-left: -10px;
-    margin-top: -15px;
-    line-height: 2.46;
+	line-height: 2.46;
+	margin-left: 11px;
 
 }
 
 .paragraph {
 
-	margin:auto;
-	width:90%;
-	padding-bottom: 35px;
-}
 
-
-.sheet2 {
-
-   	font-weight: bold;
-    width: 98px;
-    margin-top: -2px;
-    margin-left: -1px;
-    line-height: 2.46;
 } 
-
 .contact {
-
 	clear:both;
 }
 
+.number {
+
+
+}
+
+.sheet2 {
+	font-weight: bold;
+	line-height: 2.46;
+} 
+
+
+
 .contact h3 {
-	padding-top: 10px;
-    font-size: 18px;
+	font-size: 18px;
 
 }
 
 .contact ul {
-			
+
 	list-style: none;
 	display: inline-block;
 	font-size: 14px;
-    padding-left:0;
+	padding-left:0;
 }
 
 
 /*===================================
-     футер
-  ====================================*/
+футер
+====================================*/
 
 footer {
-	margin-top:122px;
+	box-sizing: border-box;
+	height: 107px;
+
+}
+
+.adv {
+	overflow: hidden;
+	padding-left: 272px;
+	padding-right: 281px;
+}
+
+.tel {
+	float:left;
+	padding-top: 33px 
 
 }
 
@@ -180,31 +196,34 @@ footer {
 	color: #e3a81f;
 	font:24px Arial, sans-serif;
 }
-	
-.tel {
-    float:left;
-    margin-right:400px;
-   
-}
-	
 
 span {
-	font-size: 12px;
+	font-size: 13px;
 	color: #c0cace;
 	font-family: Arial, sans-serif;
 }
 
 
 
-.adv {
-	max-width:814px;
-	margin: auto;
+.logo-footer {
+	float:right;
+	padding-top: 20px;
 }
 
-.logo-footer {
-	
-		
+.logo2 {
+	display: inline-block;
 }
+
+img .logo2 {
+
+
+}
+
+.info {
+	display: inline-block;
+	padding-left: 9px;	
+}
+
 
 .logo-footer p {
 	font: 12px Arial, sans-serif;
@@ -216,38 +235,33 @@ p a {
 	color:#2c6584;
 }
 
-.logo2 {
-	float:left;
-	padding-right: 16px;
-}
-
-.info {
-	margin: -15px;	
-}	
-
-img .logo2 {
-	width:10px;
-
-}
 
 
-@media screen and (min-width:320px) and (max-width: 992px) {
+
+
+/*==========================
+media
+==========================*/
+
+@media (max-width: 992px) {
 
 
 body {
-	width: 992px;
+	width: 100%;
 }
 
 .card {
-	width:300px;
-
+	max-width:300px;
+	margin-bottom: 0;
 }
 
 .social li {
 	display: block;
-	margin:auto;
-	width:200px;
-	
+
+}
+
+.social li:first-child {
+	padding-left:60px;
 }
 
 .photo img {
@@ -255,10 +269,31 @@ body {
 }
 
 footer div  {
-	clear: both;
-	width:300px;
+
 	margin-left:auto;
 }
+
+.tel {
+	padding-left: 10px;
+	width: 300px
+}
+
+
+.logo-footer {
+	clear: both;
+	padding-right: 50px;
+}
+
+.logo2 {
+
+
+}
+
+.info {
+	float: right;
+}
+
+
 
 }	
 
