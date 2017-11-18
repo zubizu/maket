@@ -1,12 +1,20 @@
 body {
-/*background: radial-gradient(circle closest-corner at 700px 1030px,  rgb(22, 93, 121), 
-rgb(8, 29, 45), rgb(8, 25, 40));*/
-	background: url(test.png) center;		
+	background: rgba(22,91,119,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(22,91,119,1) 0%, rgba(8,25,40,1) 54%, rgba(8,25,40,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(22,91,119,1)), color-stop(54%, rgba(8,25,40,1)), color-stop(100%, rgba(8,25,40,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(22,91,119,1) 0%, rgba(8,25,40,1) 54%, rgba(8,25,40,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(22,91,119,1) 0%, rgba(8,25,40,1) 54%, rgba(8,25,40,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(22,91,119,1) 0%, rgba(8,25,40,1) 54%, rgba(8,25,40,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(22,91,119,1) 0%, rgba(8,25,40,1) 54%, rgba(8,25,40,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#165b77', endColorstr='#081928', GradientType=1 );
+	margin:0;	
 	color:#0e4d66;
 	font: 14px Tahoma, sans-serif;
 	width:100%;
 }
-
+ul {
+	margin:0;
+}
 
 /*
 ========================================
@@ -37,7 +45,9 @@ nav {
 
 
 .social {
-	padding-left: 274px; /*не знаю как отцентрировать*/
+	width: 740px;
+	margin-left: auto;
+	margin-right: auto;
 
 }
 
@@ -93,7 +103,7 @@ h2 {
 
 .personal {
 	padding-top:9px;
-
+	overflow: hidden;
 }
 
 .photo {
@@ -115,11 +125,15 @@ h2 {
 }
 
 .date {
-	line-height: 2.46;
+	line-height: 1;
 	list-style: none;
 	float: left; 
 	width: 150px; 
 	text-align: left; 
+}
+
+.date li {
+	margin-bottom: 20px;
 }
 
 
@@ -131,7 +145,6 @@ h2 {
 
 
 .user {
-	line-height: 2.46;
 	margin-left: 11px;
 
 }
@@ -151,10 +164,12 @@ h2 {
 
 .sheet2 {
 	font-weight: bold;
-	line-height: 2.46;
+	
 } 
 
-
+.sheet2 li, .user li {
+	margin-bottom: 20px;
+}
 
 .contact h3 {
 	font-size: 18px;
@@ -182,8 +197,10 @@ footer {
 
 .adv {
 	overflow: hidden;
-	padding-left: 272px;
-	padding-right: 281px;
+	max-width: 740px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top:1px solid #35687f;
 }
 
 .tel {
@@ -195,6 +212,7 @@ footer {
 .phone {
 	color: #e3a81f;
 	font:24px Arial, sans-serif;
+	margin-right: 10px;
 }
 
 span {
@@ -253,44 +271,65 @@ body {
 .card {
 	max-width:300px;
 	margin-bottom: 0;
+	padding: 25px 50px;
+	margin-bottom: 50px;
+}
+
+.social li, .social {
+	display: block;
+	padding:0;
+}
+
+.social {
+	text-align: center;
 }
 
 .social li {
-	display: block;
-
+	line-height: 2;
 }
 
-.social li:first-child {
-	padding-left:60px;
+.social img {
+    vertical-align: middle;
 }
 
+.user {
+   
+    padding: 0;
+    margin:0;
+}
+
+.sheet {
+        padding: 0;
+    }    
 .photo img {
 	margin-bottom: 15px;
 }
 
-footer div  {
 
-	margin-left:auto;
-}
 
 .tel {
 	padding-left: 10px;
-	width: 300px
+    display: block;
+    clear:both;
+    text-align: center;
+    float: none;
 }
 
 
 .logo-footer {
-	clear: both;
+    text-align: center;
 	padding-right: 50px;
+    display: block;
+    text-align: center;
+	float: none;
 }
-
 .logo2 {
 
 
 }
 
 .info {
-	float: right;
+	
 }
 
 
